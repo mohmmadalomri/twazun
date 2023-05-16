@@ -1,0 +1,97 @@
+body {
+    background: rgb(230, 230, 230);
+    background: linear-gradient(90deg, rgba(230, 230, 230, 1) 0%, rgba(76, 69, 93, 0.9051995798319328) 0%, rgba(155, 71, 110, 1) 100%);
+}
+
+.sub-header h3 {
+    text-transform: capitalize;
+    color: aliceblue;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+
+.card-container {
+    width: 60%;
+}
+
+.card-container .card {
+    background: #416fb6 !important;
+    border: none;
+    height: auto;
+    width: calc(100%/3);
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.image img {
+    position: relative;
+    left: 15px;
+    width: 90%;
+}
+
+.buttom {
+    clear: both;
+    margin-top: 10%;
+    position: static;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttom button {
+    color: orange;
+}
+
+.form {
+    width: 100%;
+}
+
+#logIn .sub-header h3 {
+    letter-spacing: 25px;
+    text-align: center;
+}
+
+.form .card {
+    background-color: #ffffff00 !important;
+    border: none;
+    height: 65vh;
+    width: 100%;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: content-box;
+}
+
+input[type=text],
+input[type=password] {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.form button {
+    display: block;
+    width: 90%;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    background: #665aa6;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.forget {
+    margin-right: 18%;
+    font-size: 12px;
+}
